@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7306d0ab-f3a7-4404-b806-7d49a2b3d869" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/service/AppInFoService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/service/impl/AppInFoServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/controller/AppInFoController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/service/AppInFoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/service/impl/AppInFoServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/controller/TController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/controller/TController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/com/jbit/controller/TController.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/AppInfoMapper.class" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/AppInfoMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/AppInfo.class" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/AppInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/AppInfoMapper.class" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/AppInfoMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/AppInfo.class" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/AppInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/controller/AppInFoController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/service/AppInFoService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/service/impl/AppInFoServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/controller/AppInFoController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/AppInfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/AppInfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appinfolist.jsp" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appinfolist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/common/header.jsp" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/common/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/AppInfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/AppInfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/jbit/dao/AppInfoMapper.java" afterPath="$PROJECT_DIR$/src/java/com/jbit/dao/AppInfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/jbit/entity/AppInfo.java" afterPath="$PROJECT_DIR$/src/java/com/jbit/entity/AppInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/src/resources/mapper/AppInfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp" afterPath="$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/developer/common/header.jsp" afterPath="$PROJECT_DIR$/web/jsp/developer/common/header.jsp" />
     </list>
     <list id="a59d39a4-f91f-4be1-af39-b88357bbe6b9" name="New changelist" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/lib/aopalliance.jar" />
@@ -97,7 +78,7 @@
       <file leaf-file-name="appinfolist.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.816568">
+            <state vertical-scroll-proportion="-2.994083">
               <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
               <folding />
             </state>
@@ -910,7 +891,7 @@
       <workItem from="1536224921219" duration="656000" />
       <workItem from="1536226139387" duration="129000" />
       <workItem from="1536383102339" duration="209000" />
-      <workItem from="1536383366720" duration="8869000" />
+      <workItem from="1536383366720" duration="9647000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1536214846954</created>
@@ -996,11 +977,17 @@
       <option name="project" value="LOCAL" />
       <updated>1536384919209</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="acbd">
+      <created>1536395929991</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1536395929991</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43381000" />
+    <option name="totallyTimeSpent" value="44159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -1053,7 +1040,8 @@
     <MESSAGE value="sssss" />
     <MESSAGE value="New changelist" />
     <MESSAGE value="ddddd" />
-    <option name="LAST_COMMIT_MESSAGE" value="ddddd" />
+    <MESSAGE value="acbd" />
+    <option name="LAST_COMMIT_MESSAGE" value="acbd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1472,7 +1460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.816568">
+        <state vertical-scroll-proportion="-2.994083">
           <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
           <folding />
         </state>
