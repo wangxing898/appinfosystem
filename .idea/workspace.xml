@@ -2,24 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7306d0ab-f3a7-4404-b806-7d49a2b3d869" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/controller/DevUserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/controller/TController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/AdPromotionMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/AppCategoryMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/AppInfoMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/AppVersionMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/BackendUserMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/DataDictionaryMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/DevUserMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/AdPromotion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/AppCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/AppInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/AppVersion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/BackendUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/DataDictionary.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/DevUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/service/DevUserMapperService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/service/impl/DevUserMapperServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/service/AppInFoService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/service/impl/AppInFoServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/controller/AppInFoController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/service/AppInFoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/service/impl/AppInFoServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/controller/TController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/controller/TController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/com/jbit/controller/TController.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/AppInfoMapper.class" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/dao/AppInfoMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/AppInfo.class" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/com/jbit/entity/AppInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/AppInfoMapper.class" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/AppInfoMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/AppInfo.class" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/AppInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/AppInfoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/AppInfoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appinfolist.jsp" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appinfolist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/common/header.jsp" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/common/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/AppInfoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/AppInfoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/jbit/dao/AppInfoMapper.java" afterPath="$PROJECT_DIR$/src/java/com/jbit/dao/AppInfoMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/jbit/entity/AppInfo.java" afterPath="$PROJECT_DIR$/src/java/com/jbit/entity/AppInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/mapper/AppInfoMapper.xml" afterPath="$PROJECT_DIR$/src/resources/mapper/AppInfoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp" afterPath="$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/developer/common/header.jsp" afterPath="$PROJECT_DIR$/web/jsp/developer/common/header.jsp" />
+    </list>
+    <list id="a59d39a4-f91f-4be1-af39-b88357bbe6b9" name="New changelist" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/lib/aopalliance.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/lib/asm-3.3.1.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/lib/aspectjweaver-1.7.4.jar" />
@@ -63,329 +71,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/lib/spring-web-3.2.13.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/lib/spring-webmvc-3.2.13.RELEASE.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/lib/spring-webmvc-portlet-3.2.13.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/american-express.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/cropper.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/inbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/mastercard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/media.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/picture.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/prod-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/prod-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/prod-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/prod-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/prod-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/images/visa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/air.net.machinarium.Machinarium.GP-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/air.net.machinarium.Machinarium.GP.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.bithack.apparatus-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.bithack.apparatus-V1.1.2.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.bithack.apparatus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.2.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.3.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.31.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.doodleapps.powdertoy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.google.android.inputmethod.pinyin-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.google.android.inputmethod.pinyin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.katecca.screenofflockdonate.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.2.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.kleientertainment.doNotStarvePocket.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.lbe.security.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.momocorp.o2jamu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.plexnor.gravityscreenoffpro.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.sp.protector.free.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.speedsoftware.rootexplorer-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/uploadfiles/com.speedsoftware.rootexplorer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/controller/DevUserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/controller/TController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/AdPromotionMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/AppCategoryMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/AppInfoMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/AppVersionMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/BackendUserMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/DataDictionaryMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/dao/DevUserMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/AdPromotion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/AppCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/AppInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/AppVersion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/BackendUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/DataDictionary.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/entity/DevUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/service/DevUserMapperService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/com/jbit/service/impl/DevUserMapperServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/american-express.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/cropper.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/inbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/mastercard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/media.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/picture.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/prod-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/prod-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/prod-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/prod-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/prod-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/images/visa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/air.net.machinarium.Machinarium.GP-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/air.net.machinarium.Machinarium.GP.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.bithack.apparatus-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.bithack.apparatus-V1.1.2.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.bithack.apparatus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.2.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.3.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.31.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.doodleapps.powdertoy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.google.android.inputmethod.pinyin-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.google.android.inputmethod.pinyin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.katecca.screenofflockdonate.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.2.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.kleientertainment.doNotStarvePocket.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.lbe.security.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.momocorp.o2jamu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.plexnor.gravityscreenoffpro.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.sp.protector.free.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.speedsoftware.rootexplorer-V1.1.1.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/uploadfiles/com.speedsoftware.rootexplorer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/AppInfoSystem_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ssm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AppInfoSystem.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/403.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/AdPromotionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/AppCategoryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/AppInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/AppVersionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/BackendUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/DataDictionaryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mapper/DevUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/mybatis-generator-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/AdPromotionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/AppCategoryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/AppInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/AppVersionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/BackendUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/DataDictionaryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mapper/DevUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/mybatis-generator-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/resources/springmvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/classes/springmvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/backend/appcheck.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/backend/applist.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/backend/common/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/backend/common/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/backend/common/js.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/backend/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/backendlogin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appinfoadd.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appinfolist.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appinfomodify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appinfoview.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appversionadd.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/appversionmodify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/common/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/common/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/common/js.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/developer/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/jsp/devlogin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/bootstrap-progressbar-3.3.4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/dropzone.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/jquery.mCustomScrollbar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/jqvmap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/maps/jquery-jvectormap-2.0.3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/css/nprogress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/datepicker/daterangepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/jquery.mCustomScrollbar.concat.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/moment/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/nprogress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/js/validator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localcss/appinfoadd.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localcss/appinfolist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localcss/applist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localjs/appcheck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localjs/appinfoadd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localjs/appinfolist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localjs/appinfomodify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localjs/appinfoview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localjs/applist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localjs/appversionadd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localjs/appversionmodify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/AppInfoSystem_war_exploded/statics/localjs/rollpage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/AdPromotionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/AppCategoryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/AppInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/AppVersionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/BackendUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/DataDictionaryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mapper/DevUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/mybatis-generator-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/AdPromotionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/AppCategoryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/AppInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/AppVersionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/BackendUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/DataDictionaryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mapper/DevUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/mybatis-generator-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/resources/springmvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AppInfoSystem/springmvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/controller/DevUserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/controller/TController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/dao/AdPromotionMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/dao/AppCategoryMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/dao/AppInfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/dao/AppVersionMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/dao/BackendUserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/dao/DataDictionaryMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/dao/DevUserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/entity/AdPromotion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/entity/AppCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/entity/AppInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/entity/AppVersion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/entity/BackendUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/entity/DataDictionary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/entity/DevUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/service/DevUserMapperService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/jbit/service/impl/DevUserMapperServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/mapper/AdPromotionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/mapper/AppCategoryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/mapper/AppInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/mapper/AppVersionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/mapper/BackendUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/mapper/DataDictionaryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/mapper/DevUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/mybatis-generator-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/springmvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/403.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/backend/appcheck.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/backend/applist.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/backend/common/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/backend/common/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/backend/common/js.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/backend/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/backendlogin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/appinfoadd.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/appinfomodify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/appinfoview.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/appversionadd.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/appversionmodify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/common/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/common/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/common/js.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/developer/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/devlogin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/bootstrap-progressbar-3.3.4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/dropzone.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/jquery.mCustomScrollbar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/jqvmap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/maps/jquery-jvectormap-2.0.3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/css/nprogress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/datepicker/daterangepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/jquery.mCustomScrollbar.concat.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/moment/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/nprogress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/validator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localcss/appinfoadd.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localcss/appinfolist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localcss/applist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localjs/appcheck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localjs/appinfoadd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localjs/appinfolist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localjs/appinfomodify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localjs/appinfoview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localjs/applist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localjs/appversionadd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localjs/appversionmodify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/statics/localjs/rollpage.js" />
     </list>
-    <list id="a59d39a4-f91f-4be1-af39-b88357bbe6b9" name="New changelist" comment="" />
     <ignored path="web/WEB-INF/lib/" />
     <ignored path=".idea/dataSources.local.xml" />
     <manually-removed-from-ignored>
@@ -408,11 +94,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DevUserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/com/jbit/controller/DevUserController.java">
+      <file leaf-file-name="appinfolist.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15884477">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state vertical-scroll-proportion="-4.816568">
+              <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -469,7 +155,15 @@
         <option value="$PROJECT_DIR$/web/jsp/backend/main.jsp" />
         <option value="$PROJECT_DIR$/src/java/com/jbit/controller/DevUserController.java" />
         <option value="$PROJECT_DIR$/web/jsp/backend/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/java/com/jbit/dao/AppInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/java/com/jbit/service/AppInFoService.java" />
+        <option value="$PROJECT_DIR$/src/java/com/jbit/service/impl/AppInFoService.java" />
+        <option value="$PROJECT_DIR$/src/java/com/jbit/service/impl/AppInFoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/java/com/jbit/controller/AppInFoController.java" />
         <option value="$PROJECT_DIR$/web/jsp/developer/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/resources/mapper/AppInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/java/com/jbit/entity/AppInfo.java" />
+        <option value="$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp" />
       </list>
     </option>
   </component>
@@ -556,29 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppInfoSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppInfoSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -597,6 +269,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="developer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppInfoSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppInfoSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="developer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -679,6 +381,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jbit.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\AppInfoSystem\web" />
       <recent name="C:\Users\Administrator\IdeaProjects\AppInfoSystem\web\WEB-INF\lib" />
@@ -1205,7 +910,7 @@
       <workItem from="1536224921219" duration="656000" />
       <workItem from="1536226139387" duration="129000" />
       <workItem from="1536383102339" duration="209000" />
-      <workItem from="1536383366720" duration="1447000" />
+      <workItem from="1536383366720" duration="8869000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1536214846954</created>
@@ -1285,11 +990,17 @@
       <option name="project" value="LOCAL" />
       <updated>1536384186547</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ddddd">
+      <created>1536384919209</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536384919209</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35959000" />
+    <option name="totallyTimeSpent" value="43381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -1297,18 +1008,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.485" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2398957" sideWeight="0.508125" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2398957" sideWeight="0.515625" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.49125" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2398957" sideWeight="0.491875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23790322" sideWeight="0.484375" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25875" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27570695" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1341,7 +1052,8 @@
     <MESSAGE value="aaa" />
     <MESSAGE value="sssss" />
     <MESSAGE value="New changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
+    <MESSAGE value="ddddd" />
+    <option name="LAST_COMMIT_MESSAGE" value="ddddd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1521,20 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/service/DevUserMapperService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28785047">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/service/impl/DevUserMapperServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45233646">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-36.19355">
@@ -1594,13 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/developer/common/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5954738">
-          <caret line="170" column="29" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/developer/common/js.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1611,13 +1302,6 @@
     <entry file="file://$PROJECT_DIR$/web/jsp/developer/appinfoadd.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65346533">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.947666">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -1650,17 +1334,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/developer/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18670438">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/backendlogin.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0848656">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1678,17 +1356,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/controller/TController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31752577">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/jbit/controller/DevUserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15884477">
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/service/DevUserMapperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31752577">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/service/AppInFoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49896908">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/service/impl/DevUserMapperServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27216494">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/service/impl/AppInFoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7257732">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/dao/AppInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.273743">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/mapper/AppInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <folding>
+            <marker date="1536393223806" expanded="true" signature="3262:3974" placeholder="SELECT a.`so... app_info" />
+            <marker date="1536393223806" expanded="true" signature="3322:3418" placeholder="SELECT value... data_dictionary" />
+            <marker date="1536393223806" expanded="true" signature="3442:3509" placeholder="SELECT categ... app_category" />
+            <marker date="1536393223806" expanded="true" signature="3539:3606" placeholder="SELECT categ... app_category" />
+            <marker date="1536393223806" expanded="true" signature="3636:3703" placeholder="SELECT categ... app_category" />
+            <marker date="1536393223806" expanded="true" signature="3733:3823" placeholder="SELECT value... data_dictionary" />
+            <marker date="1536393223806" expanded="true" signature="3878:3936" placeholder="SELECT versi... app_version" />
+            <marker date="1536393223806" expanded="true" signature="4214:4317" placeholder="select from app_info" />
+            <marker date="1536393223806" expanded="true" signature="4530:4587" placeholder="delete from " />
+            <marker date="1536393223806" expanded="true" signature="4797:5992" placeholder="insert into app_info... " />
+            <marker date="1536393223806" expanded="true" signature="10385:12823" placeholder="update app_i... " />
+            <marker date="1536393223806" expanded="true" signature="13045:14282" placeholder="update app_i... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/entity/AppInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2867784">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/jbit/controller/AppInFoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6964618">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/developer/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5467836">
+          <caret line="83" column="88" selection-start-line="83" selection-start-column="88" selection-end-line="83" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/developer/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26086956">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/developer/appinfolist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.816568">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
           <folding />
         </state>
       </provider>

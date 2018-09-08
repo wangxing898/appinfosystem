@@ -30,6 +30,12 @@
     <result column="logoPicPath" jdbcType="VARCHAR" property="logopicpath" />
     <result column="logoLocPath" jdbcType="VARCHAR" property="logolocpath" />
     <result column="versionId" jdbcType="BIGINT" property="versionid" />
+    <result column="flatformName" jdbcType="VARCHAR" property="flatformname" />
+    <result column="categoryLevel1Name" jdbcType="VARCHAR" property="categoryLevel1name" />
+    <result column="categoryLevel2Name" jdbcType="VARCHAR" property="categoryLevel2name" />
+    <result column="categoryLevel3Name" jdbcType="VARCHAR" property="categoryLevel3name" />
+    <result column="statusName" jdbcType="VARCHAR" property="statusname" />
+    <result column="versionName" jdbcType="VARCHAR" property="versionname" />
   </resultMap>
   <sql id="Base_Column_List">
     <!--
@@ -41,6 +47,20 @@
     createdBy, creationDate, modifyBy, modifyDate, categoryLevel1, categoryLevel2, logoPicPath, 
     logoLocPath, versionId
   </sql>
+
+  <select id="findAppInfo" resultMap="BaseResultMap">
+    SELECT a.`softwareName`,a.`APKName`,a.`softwareSize` ,
+    (SELECT valuename FROM `data_dictionary` WHERE typeCode='APP_FLATFORM' AND valueId=a.`flatformId`) AS flatformName,
+    (SELECT categoryname FROM `app_category` WHERE id=a.`categoryLevel1`) AS categoryLevel1Name,
+    (SELECT categoryname FROM `app_category` WHERE id=a.`categoryLevel2`) AS categoryLevel2Name,
+    (SELECT categoryname FROM `app_category` WHERE id=a.`categoryLevel3`) AS categoryLevel3Name,
+    (SELECT valuename FROM `data_dictionary` WHERE typeCode='APP_STATUS' AND valueId=a.`status`) AS statusName,
+    a.`downloads`,
+    a.status,
+    (SELECT versionno FROM `app_version` WHERE id=a.`versionId`) AS versionName
+    FROM `app_info` a
+  </select>
+
   <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
     <!--
       WARNING - @mbggenerated
